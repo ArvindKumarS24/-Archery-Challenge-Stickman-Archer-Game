@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>Archery Challenge</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div class="top-left">
+      <div id="score">Score: 0</div>
+      <div id="highscore">High: 0</div>
+      <div id="arrows">Arrows: 12</div>
+      <div id="time">Time: 60s</div>
+    </div>
+
+    <div class="top-right">
+      <select id="difficulty">
+        <option>Easy</option>
+        <option selected>Medium</option>
+        <option>Hard</option>
+      </select>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <script src="game.js"></script>
+</body>
+</html>
